@@ -33,12 +33,14 @@ async function handleRequest(request) {
     '/groq': 'https://api.groq.com',
     '/x': 'https://api.x.ai',
     '/cohere': 'https://api.cohere.ai',
-    '/huggingface': 'https://api-inference.huggingface.co',
+    '/hf': 'https://api-inference.huggingface.co',
     '/together': 'https://api.together.xyz',
     '/novita': 'https://api.novita.ai',
     '/portkey': 'https://api.portkey.ai',
     '/fireworks': 'https://api.fireworks.ai',
-    '/openrouter': 'https://openrouter.ai/api'
+    '/one': 'https://one.euan.live',
+    '/or': 'https://openrouter.ai/api',
+    '/pie': 'https://apipie.ai'
   }
   
   const [prefix, rest] = extractPrefixAndRest(pathname, Object.keys(apiMapping));
